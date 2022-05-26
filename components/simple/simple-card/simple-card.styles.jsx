@@ -66,7 +66,7 @@ const YearCard = styled.div`
 const CardWrapper = styled.div`
     cursor: pointer;
 
-    & > .image-container{
+    & > a > .image-container{
         width: 100%;
         aspect-ratio: 4/3;
         position: relative;
@@ -79,8 +79,8 @@ const CardWrapper = styled.div`
         }
     }
 
-    & > .image-container:hover > ${InfoCard},
-    & > .image-container:hover > ${YearCard}{
+    & > a > .image-container:hover > ${InfoCard},
+    & > a > .image-container:hover > ${YearCard}{
         opacity: 1;
     }
 

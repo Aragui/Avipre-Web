@@ -3,7 +3,7 @@ import { BannerWrapper } from './backhoes-banner.styles'
 
 const BackhoesBanner = () => {
     return (
-        <BannerWrapper className="container-fluid">
+        <BannerWrapper className="container-fluid" id="maquinaria">
             <div className="row py-5">
                 <div className="col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center align-items-center">
                     <img src="/images/excavadora.png" className='banner-cover me-3' alt="Renta de retroexcavadoras" />

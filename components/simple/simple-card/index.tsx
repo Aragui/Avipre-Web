@@ -11,20 +11,22 @@ const ProjectCard: FC<IProject> = (project) => {
     return (
         <CardWrapper className="col-xl-3 col-lg-3 col-md-6 d-flex flex-column mb-3">
             <Link href={`/${project.slug}`}>
-                <div className="image-container">
-                    <img src={project.cover!} alt={project.name} />
-                    <InfoCard>
-                        <span className="text">{project.name}</span>
-                        <div className="divider"></div>
-                        <span className="text">{project.ubication}</span>
-                        <div className="divider"></div>
+                <a>
+                    <div className="image-container">
+                        <img src={project.cover!} alt={project.name} />
+                        <InfoCard>
+                            <span className="text">{project.name}</span>
+                            <div className="divider"></div>
+                            <span className="text">{project.ubication}</span>
+                            <div className="divider"></div>
 
-                    </InfoCard>
+                        </InfoCard>
 
-                    <YearCard>
-                        <h4 className="year">{project.year}</h4>
-                    </YearCard>
-                </div>
+                        <YearCard>
+                            <h4 className="year">{project.year}</h4>
+                        </YearCard>
+                    </div>
+                </a>
             </Link>
         </CardWrapper>
     )

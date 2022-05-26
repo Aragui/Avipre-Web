@@ -1,11 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
-import { FooterWrapper } from './footer.styles'
 
 const Footer = () => {
     return (
-        <FooterWrapper>
+        <div className='footer'>
             <div className="container">
-                <div className="row my-5">
+                <div className="row">
                     <div className="col-md-4 col-sm-12 d-flex justify-content-start align-items-center">
                         <img src="./images/logos/logotipo-2322x688-13.png" className='ms-5' style={{ height: '70px' }} alt="Avipre" />
                     </div>
@@ -27,7 +26,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-        </FooterWrapper>
+        </div>
     );
 }
 
