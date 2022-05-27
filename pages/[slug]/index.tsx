@@ -1,15 +1,14 @@
+import Head from 'next/head';
 import { FC, useEffect } from 'react';
 import json from '../../assets/json/projects.json'
 import { IProject } from '../../domain/interfaces/iproject';
 
 const Project = (project: IProject) => {
-
-    useEffect(() => {
-        document.title = project.name
-    })
-
     return (
         <div className="container my-3">
+            <Head>
+                <title>{project.name} | AVIPRE Arquitectura</title>
+            </Head>
             <div className="row">
                 <h2 className="text-center">{project.name}</h2>
             </div>

@@ -6,15 +6,14 @@ import ProjectCard from "../components/simple/simple-card"
 import BackhoesBanner from "../components/composed/backhoes-banner"
 import { useEffect } from "react"
 import Map from "../components/simple/map"
+import Head from "next/head"
 
 const Home = ({ list }: { list: IProject[] }) => {
-
-    useEffect(() => {
-        document.title = "AVIPRE Arquitectura"
-    })
-
     return (
         <div id="proyectos">
+            <Head>
+                <title>AVIPRE Arquitectura</title>
+            </Head>
             <div className="container">
                 <div className="row mt-4 mb-4">
                     <h3 className="text-center title">Proyectos</h3>

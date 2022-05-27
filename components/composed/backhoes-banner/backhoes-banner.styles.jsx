@@ -6,7 +6,15 @@ const BannerWrapper = styled.div`
     background-color: #CCCDCD;
 
     .banner-cover{
-        width: 500px;
+        width: 100%;
+
+        @media (max-width: 1000px) {
+         max-width: 500px;
+        }
+
+        @media (min-width: 1000px){
+            margin-left: calc(5vw);
+        }
     }
 
     .banner-title{

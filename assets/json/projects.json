@@ -173,7 +173,19 @@
         "year": 2019,
         "ubication": null,
         "cover": null,
-        "gallery": []
+        "gallery": [
+            "/images/IMG_5001.JPG",
+            "/images/",
+            "/images/",
+            "/images/",
+            "/images/",
+            "/images/",
+            "/images/",
+            "/images/",
+            "/images/",
+            "/images/",
+            "/images/"
+        ]
     },
     {
         "slug": "alamanda",
