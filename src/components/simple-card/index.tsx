@@ -4,7 +4,7 @@ import { FC } from "react"
 import Link from "next/link"
 import { CardWrapper, InfoCard, YearCard } from './simple-card.styles'
 
-import { IProject } from "../../../domain/interfaces/iproject"
+import { IProject } from "../../../src/domain/interfaces/iproject"
 
 
 const ProjectCard: FC<IProject> = (project) => {

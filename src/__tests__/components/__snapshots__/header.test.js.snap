@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> Render Header 1`] = `
+<div>
+  <div
+    class="navbar"
+  >
+    <div
+      class="container"
+    >
+      <a
+        href="/"
+      >
+        <img
+          alt=""
+          src="./images/logos/logotipo-2322x688-13.png"
+          style="height: 70px;"
+        />
+      </a>
+      <div
+        class="menu"
+      >
+        <ul
+          class="menu-ul"
+        >
+          <li>
+            <a
+              class="menu-link"
+              href="/"
+            >
+              Inicio
+            </a>
+          </li>
+          <li>
+            <a
+              class="menu-link"
+              href="/#proyectos"
+            >
+              Proyectos
+            </a>
+          </li>
+          <li>
+            <a
+              class="menu-link"
+              href="/#maquinaria"
+            >
+              Maquinaria
+            </a>
+          </li>
+          <li>
+            <a
+              class="menu-link"
+            >
+              Contacto
+            </a>
+          </li>
+          <li>
+            <a
+              class="menu-link"
+              href="/#ubicacion"
+            >
+              Ubicación
+            </a>
+          </li>
+          <li>
+            <a
+              class="menu-link"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
