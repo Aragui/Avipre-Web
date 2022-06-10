@@ -1,14 +1,12 @@
-import { IProject } from "../domain/interfaces/iproject"
-
-import json from '../assets/json/projects.json'
-
-import ProjectCard from "../components/simple/simple-card"
-import BackhoesBanner from "../components/composed/backhoes-banner"
-import { useEffect } from "react"
-import Map from "../components/simple/map"
+import ProjectCard from "../components/simple-card"
+import BackhoesBanner from "../components/backhoes-banner"
+import Map from "../components//map"
 import Head from "next/head"
 
-const Home = ({ list }: { list: IProject[] }) => {
+import { ProjectRepo } from "../repository/project-repository"
+import { Project } from "../domain/models/project"
+
+const Home = ({ list }: { list: Project[] }) => {
     return (
         <div id="proyectos">
             <Head>
@@ -42,11 +40,9 @@ const Home = ({ list }: { list: IProject[] }) => {
 export async function getStaticProps(context: any) {
 
     try {
-        const list: IProject[] = json.filter(project => {
-            if (project.cover !== null) {
-                return project
-            }
-        }).sort((a, b) => b.year - a.year)
+        const projectRepo = new ProjectRepo();
+
+        const list = projectRepo.getProjects();
 
         return {
             props: {

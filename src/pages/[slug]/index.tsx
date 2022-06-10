@@ -1,31 +1,33 @@
 import Head from 'next/head';
-import { FC, useEffect } from 'react';
-import json from '../../assets/json/projects.json'
-import { IProject } from '../../domain/interfaces/iproject';
+import CoverBanner from '../../components/cover-banner';
+import ImageGrid from '../../containers/image-grid';
+import { Project } from '../../domain/models/project';
+import { ProjectRepo } from '../../repository/project-repository';
 
-const Project = (project: IProject) => {
+const projectsRepo = new ProjectRepo();
+
+const ProjectPage = (project: Project) => {
     return (
-        <div className="container my-3">
+        <div className="container-fluid">
             <Head>
                 <title>{project.name} | AVIPRE Arquitectura</title>
             </Head>
             <div className="row">
-                <h2 className="text-center">{project.name}</h2>
+                <CoverBanner title={project.name} urlImage={project.cover!} />
             </div>
+            <ImageGrid images={project.gallery} />
         </div>
     );
 }
 
 export async function getStaticPaths() {
-    const paths = json.filter(project => {
-        if (project.cover !== null) {
-            return project
-        }
-    }).map(project => ({
+    const slugList = projectsRepo.getSlugs();
+
+    const paths = slugList.map(slug => ({
         params: {
-            slug: project.slug
+            slug
         }
-    }))
+    }));
 
     return { paths, fallback: false }
 }
@@ -34,11 +36,11 @@ export async function getStaticProps(context: any) {
     const params = context.params
     const slug = params.slug
 
-    const project: IProject = json.find(project => project.slug === slug)!
+    const project = projectsRepo.getSingleProject(slug);
 
     return {
         props: project
     }
 }
 
-export default Project;
+export default ProjectPage;

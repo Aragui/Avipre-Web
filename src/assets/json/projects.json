@@ -165,26 +165,38 @@
         "year": 2019,
         "ubication": null,
         "cover": "/images/fachada-dzitya-c.v-600x450.jpg",
-        "gallery": []
+        "gallery": [
+            "/images/casa-dzitya-jr/1.jpg",
+            "/images/casa-dzitya-jr/2.jpeg",
+            "/images/casa-dzitya-jr/3.jpeg",
+            "/images/casa-dzitya-jr/4.jpeg",
+            "/images/casa-dzitya-jr/5.jpeg",
+            "/images/casa-dzitya-jr/6.jpeg",
+            "/images/casa-dzitya-jr/7.jpeg",
+            "/images/casa-dzitya-jr/PS-3-1.jpg",
+            "/images/casa-dzitya-jr/PS-3-2.jpeg",
+            "/images/casa-dzitya-jr/PS-4-2.jpg",
+            "/images/casa-dzitya-jr/PS-5-1.jpg"
+        ]
     },
     {
         "slug": "casa-conkal-rl",
         "name": "Casa Conkal RL",
         "year": 2019,
         "ubication": null,
-        "cover": null,
+        "cover": "/images/casa-rich-leon/6.jpeg",
         "gallery": [
-            "/images/IMG_5001.JPG",
-            "/images/",
-            "/images/",
-            "/images/",
-            "/images/",
-            "/images/",
-            "/images/",
-            "/images/",
-            "/images/",
-            "/images/",
-            "/images/"
+            "/images/casa-rich-leon/1.jpeg",
+            "/images/casa-rich-leon/2.jpeg",
+            "/images/casa-rich-leon/3.jpeg",
+            "/images/casa-rich-leon/4.jpeg",
+            "/images/casa-rich-leon/5.jpeg",
+            "/images/casa-rich-leon/6.jpeg",
+            "/images/casa-rich-leon/7.jpeg",
+            "/images/casa-rich-leon/8.jpeg",
+            "/images/casa-rich-leon/9.jpeg",
+            "/images/casa-rich-leon/10.jpeg",
+            "/images/casa-rich-leon/PS-1-1.jpeg"
         ]
     },
     {
@@ -192,16 +204,33 @@
         "name": "Alamanda",
         "year": 2019,
         "ubication": null,
-        "cover": null,
-        "gallery": []
+        "cover": "/images/alamanda/IMG_5010.JPG",
+        "gallery": [
+            "/images/alamanda/IMG_5001.JPG",
+            "/images/alamanda/IMG_5003.JPG",
+            "/images/alamanda/IMG_5004.JPG",
+            "/images/alamanda/IMG_5005.JPG",
+            "/images/alamanda/IMG_5008.JPG",
+            "/images/alamanda/IMG_5010.JPG",
+            "/images/alamanda/IMG_5065.JPG",
+            "/images/alamanda/IMG_5066.JPG",
+            "/images/alamanda/IMG_5067.JPG",
+            "/images/alamanda/IMG_5069.JPG",
+            "/images/alamanda/IMG_5070.JPG"
+        ]
     },
     {
         "slug": "casa-cholul",
         "name": "Casa Cholul",
         "year": 2020,
         "ubication": null,
-        "cover": null,
-        "gallery": []
+        "cover": "/images/casa-cholul/IMG-6934.jpg",
+        "gallery": [
+            "/images/casa-cholul/IMG-6934.jpg",
+            "/images/casa-cholul/IMG-6935.jpg",
+            "/images/casa-cholul/IMG-6936.jpg",
+            "/images/casa-cholul/IMG-6937.jpg"
+        ]
     },
     {
         "slug": "casa-las-fincas",

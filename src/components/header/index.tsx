@@ -4,14 +4,6 @@ import Link from "next/link"
 import { useEffect } from "react"
 
 const Header = () => {
-    // useEffect(() => {
-    //     window.addEventListener('scroll', (e) => console.log(window.scrollY))
-    //     console.log('useState')
-    //     return () => {
-    //         window.removeEventListener('scroll', (e) => console.log(window.scrollY))
-    //     }
-    // })
-
     const handleScroll = () => {
 
     }

@@ -1,11 +1,12 @@
 import { IProject } from "../interfaces/iproject";
 
-class Project implements IProject {
+class Project{
     name: string;
     year: number;
     cover: string | null | undefined;
     slug: string;
     ubication: string | null | undefined;
+    gallery: string[];
     // description: string | null | undefined;
     // groundExtension: string | null | undefined;
     // designer: string;
@@ -16,7 +17,8 @@ class Project implements IProject {
         year: number,
         cover: string | null | undefined,
         slug: string,
-        ubication: string | null | undefined
+        ubication: string | null | undefined,
+        gallery: string[]
         // description: string | null | undefined,
         // groundExtension: string | null | undefined,
         // designer: string,
@@ -27,6 +29,7 @@ class Project implements IProject {
         this.cover = cover;
         this.slug = slug;
         this.ubication = ubication;
+        this.gallery = gallery;
         // this.description = description;
         // this.groundExtension = groundExtension;
         // this.designer = designer;
