@@ -5,6 +5,7 @@ import { Card } from './image-card.styles'
 
 interface props{
     src: string;
+    key: string;
 }
 
 const ImageCard = ({src}: props) => {
