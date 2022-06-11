@@ -12,7 +12,7 @@ const CoverBanner = ({ urlImage, title }: props) => {
     return (
         <BannerBackground>
             <div className="cover-wrapper">
-                <img src={urlImage!} alt={title} className="cover" />
+                <img src={urlImage} alt={title} className="cover" />
                 <div className="title-wrapper">
                     <h1 className="title">{title}</h1>
                 </div>

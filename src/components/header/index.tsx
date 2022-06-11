@@ -1,14 +1,22 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image"
 import Link from "next/link"
-import { useEffect } from "react"
+import React from "react"
 
 const Header = () => {
-    const handleScroll = () => {
+    const [style, setStyle] = React.useState<string>('navbar');
 
-    }
+    React.useEffect(() => {
+        window.addEventListener('scroll', () => {
+            if(window.scrollY >= 10){
+                setStyle('navbar sticky');
+            }else{
+                setStyle('navbar');
+            }
+                
+        })
+    })
     return (
-        <div className="navbar">
+        <div className={style}>
             <div className="container">
                 <Link href="/"><a><img src="./images/logos/logotipo-2322x688-13.png" style={{ height: '70px' }} alt="" /></a></Link>
                 <div className="menu">

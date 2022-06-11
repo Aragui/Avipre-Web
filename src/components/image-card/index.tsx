@@ -11,7 +11,7 @@ const ImageCard = ({src}: props) => {
 
     return (
         <Card className="col-md-3 col-sm-6 mb-4">
-            <img src={src} alt={src.split('/').pop()} className="w-100" />
+            <img src={src} alt={src.split('/').pop()} className="w-100 h-100" />
             
         </Card>
     )

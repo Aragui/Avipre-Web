@@ -6,6 +6,16 @@ body{
     height: 100px;
     width: 100%;
     background-color: #CCCDCD;
+    transition: all 0.5s ease-in-out;
+}
+
+.sticky{
+    position: sticky;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+
+    z-index: 1000;
 }
 
 .menu{

@@ -1,12 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
-import { BannerWrapper } from './backhoes-banner.styles'
+import { BannerWrapper } from './excavators-banner.styles'
 
-const BackhoesBanner = () => {
+const ExcavatorsBanner = () => {
     return (
         <BannerWrapper className="container-fluid" id="maquinaria">
             <div className="row py-5">
                 <div className="col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center align-items-center">
-                    <img src="/images/excavadora.png" className='banner-cover me-3' alt="Renta de retroexcavadoras" />
+                    <img src="/images/excavadora.png" className='banner-cover' alt="Renta de retroexcavadoras" />
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-6 py-3 ps-3 d-flex flex-column justify-content-center align-items-center">
                     <div>
@@ -30,4 +30,4 @@ const BackhoesBanner = () => {
     );
 }
 
-export default BackhoesBanner;
+export default ExcavatorsBanner;

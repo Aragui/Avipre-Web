@@ -1,5 +1,5 @@
 import ProjectCard from "../components/simple-card"
-import BackhoesBanner from "../components/backhoes-banner"
+import ExcavatorsBanner from "../components/excavators-banner"
 import Map from "../components//map"
 import Head from "next/head"
 
@@ -31,7 +31,7 @@ const Home = ({ list }: { list: Project[] }) => {
                     }
                 </div>
             </div>
-            <BackhoesBanner />
+            <ExcavatorsBanner />
             <Map />
         </div>
     )
