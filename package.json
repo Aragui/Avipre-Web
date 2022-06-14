@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest --verbose --coverage",
-    "test:watch": "jest --watch --coverage --verbose"
+    "test:watch": "jest --watch --coverage --verbose",
+    "cypress": "cypress open"
   },
   "dependencies": {
     "next": "12.1.6",

@@ -6,6 +6,8 @@ import Head from "next/head"
 import { ProjectRepo } from "../repository/project-repository"
 import { Project } from "../domain/models/project"
 
+export const projectRepo = new ProjectRepo();
+
 const Home = ({ list }: { list: Project[] }) => {
     return (
         <div id="proyectos">
@@ -40,8 +42,6 @@ const Home = ({ list }: { list: Project[] }) => {
 export async function getStaticProps(context: any) {
 
     try {
-        const projectRepo = new ProjectRepo();
-
         const list = projectRepo.getProjects();
 
         return {
@@ -51,6 +51,10 @@ export async function getStaticProps(context: any) {
         }
     } catch (error) {
         console.log(error)
+
+        return {
+            error
+        }
     }
 }
 
