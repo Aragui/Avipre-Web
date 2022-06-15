@@ -13,7 +13,9 @@ const ImageGrid = ({images}: props) => {
             <h2 className='text-center mb-3'>Galería</h2>
             <div className="row">
               {
+                (images.length > 0) ?
                 images.map(image => <ImageCard src={image} key={image} />)
+                : <h5 className="text-center">Aún no hay fotos</h5>
               }
             </div>
         </div>

@@ -1,5 +1,46 @@
 body{
-    font-family:  "Roboto", Helvetica, Arial, sans-serif;;
+    font-family:  "Roboto", Helvetica, Arial, sans-serif;
+    position: relative;
+}
+
+.spinner{
+    position: sticky;
+
+    overflow: hidden;
+
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+
+    z-index: 10000;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner::after{
+    content: ' ';
+
+    width: 5vw;
+    height: 5vw;
+
+    border-style: solid;
+    border-color: #6D6E71;
+    border-width: 0.8vw;
+
+    border-top-color: #FCD844;
+
+    border-radius: 50%;
+
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite ;
+
 }
 
 .navbar{
@@ -73,3 +114,22 @@ body{
         padding: 30px 0;
     }
 }
+
+.stop-scrolling {
+    height: 100vw;
+    overflow: hidden;
+}
+
+@keyframes rotate {
+    0%{
+    transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
