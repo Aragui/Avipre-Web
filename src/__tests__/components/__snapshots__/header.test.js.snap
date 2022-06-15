@@ -2,8 +2,8 @@
 
 exports[`<Header /> Render Header 1`] = `
 <div>
-  <div
-    class="navbar"
+  <nav
+    class="navbar navbar-expand-lg sticky-top"
   >
     <div
       class="container"
@@ -13,56 +13,83 @@ exports[`<Header /> Render Header 1`] = `
       >
         <img
           alt=""
+          class="navbar-brand"
           src="./images/logos/logotipo-2322x688-13.png"
           style="height: 70px;"
         />
       </a>
+      <button
+        aria-controls="navbarToggler"
+        aria-expanded="false"
+        aria-label="Abrir navegación"
+        class="navbar-toggler"
+        data-bs-target="#navbarToggler"
+        data-bs-toggle="collapse"
+        type="button"
+      >
+        <span
+          class="navbar-toggler-icon"
+        />
+      </button>
       <div
-        class="menu"
+        class="collapse navbar-collapse"
+        id="navbarToggler"
       >
         <ul
-          class="menu-ul"
+          class="navbar-nav me-auto mb-2 mb-lg-0"
         >
-          <li>
+          <li
+            class="nav-item"
+          >
             <a
-              class="menu-link"
+              class="menu-link nav-link"
               href="/"
             >
               Inicio
             </a>
           </li>
-          <li>
+          <li
+            class="nav-item"
+          >
             <a
-              class="menu-link"
+              class="menu-link nav-link"
               href="/#proyectos"
             >
               Proyectos
             </a>
           </li>
-          <li>
+          <li
+            class="nav-item"
+          >
             <a
-              class="menu-link"
+              class="menu-link nav-link"
               href="/#maquinaria"
             >
               Maquinaria
             </a>
           </li>
-          <li>
+          <li
+            class="nav-item"
+          >
             <a
-              class="menu-link"
+              class="menu-link nav-link"
             >
               Contacto
             </a>
           </li>
-          <li>
+          <li
+            class="nav-item"
+          >
             <a
-              class="menu-link"
+              class="menu-link nav-link"
               href="/#ubicacion"
             >
               Ubicación
             </a>
           </li>
-          <li>
+          <li
+            class="nav-item"
+          >
             <a
               class="menu-link"
             />
@@ -70,6 +97,6 @@ exports[`<Header /> Render Header 1`] = `
         </ul>
       </div>
     </div>
-  </div>
+  </nav>
 </div>
 `;

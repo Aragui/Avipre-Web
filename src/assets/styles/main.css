@@ -3,8 +3,6 @@ body{
 }
 
 .navbar{
-    height: 100px;
-    width: 100%;
     background-color: #CCCDCD;
     transition: all 0.5s ease-in-out;
 }

@@ -16,6 +16,7 @@ export default function Document() {
             <body>
                 <Main />
                 <NextScript />
+                <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
             </body>
         </Html>
     )

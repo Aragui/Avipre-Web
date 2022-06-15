@@ -13,6 +13,8 @@ const Home = ({ list }: { list: Project[] }) => {
         <div id="proyectos">
             <Head>
                 <title>AVIPRE Arquitectura</title>
+                <meta name="description" content="Construccion en Merida, Arquitectura Merida, Contruccion y Diseño Merida, Contruir Casas Merida" />
+                <meta name="og:image" content="https://avipre.vercel.app/images/logos/logotipo-2322x688-13.png" />
             </Head>
             <div className="container">
                 <div className="row mt-4 mb-4">
