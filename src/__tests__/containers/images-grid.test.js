@@ -12,4 +12,9 @@ describe('<ImageGrid />', () => {
 
         expect(container.querySelector('img[src="test.jpg"]')).toBeInTheDocument();
     });
+    
+    test('No image', () => { 
+        const { getByText } = render(<ImageGrid images={[]} />);
+        expect(getByText('Aún no hay fotos')).toBeInTheDocument();
+     })
 })

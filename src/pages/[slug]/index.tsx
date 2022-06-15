@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import CoverBanner from '../../components/cover-banner';
+import Spinner from '../../components/spinner';
 import ImageGrid from '../../containers/image-grid';
 import { Project } from '../../domain/models/project';
 import { ProjectRepo } from '../../repository/project-repository';
@@ -12,15 +13,18 @@ interface props {
 
 const ProjectPage = ({ project }: props) => {
     return (
-        <div className="container-fluid">
-            <Head>
-                <title>{project.name} | AVIPRE Arquitectura</title>
-            </Head>
-            <div className="row">
-                <CoverBanner title={project.name} urlImage={project.cover!} />
+        <>
+            <Spinner />
+            <div className="container-fluid">
+                <Head>
+                    <title>{project.name} | AVIPRE Arquitectura</title>
+                </Head>
+                <div className="row">
+                    <CoverBanner title={project.name} urlImage={project.cover!} />
+                </div>
+                <ImageGrid images={project.gallery} />
             </div>
-            <ImageGrid images={project.gallery} />
-        </div>
+        </>
     );
 }
 
