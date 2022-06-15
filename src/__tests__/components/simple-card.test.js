@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import { Project } from '../../domain/models/project'
 
 import SimpleCard from '../../components/simple-card'
@@ -6,7 +6,7 @@ import SimpleCard from '../../components/simple-card'
 const project = new Project('Proyecto test', 2022, 'http://test.test', 'proyecto-test', 'Mérida');
 
 describe('<SimpleCard />', () => {
-    const { container, getByText } = render(<SimpleCard
+    const { getByText } = render(<SimpleCard
         cover={project.cover}
         name={project.name}
         slug={project.slug}

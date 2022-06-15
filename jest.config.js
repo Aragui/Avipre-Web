@@ -19,9 +19,13 @@ module.exports = createJestConfig(customJestConfig)
 
 module.exports = {
   collectCoverageFrom: [
-    '**/*.{js,jsx,ts,tsx}',
+    'src/**/*.{js,jsx,ts,tsx}',
     '!**/*.d.ts',
     '!**/node_modules/**',
+    '!**/_app.tsx',
+    '!**/_document.js',
+    '!src/repository/*.ts',
+    '!src/domain/**/*.ts'
   ],
   moduleNameMapper: {
     // Handle CSS imports (with CSS modules)

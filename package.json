@@ -7,7 +7,9 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest"
+    "test": "jest --verbose --coverage",
+    "test:watch": "jest --watch --coverage --verbose",
+    "cypress": "cypress open"
   },
   "dependencies": {
     "next": "12.1.6",
@@ -22,6 +24,7 @@
     "@types/react": "18.0.9",
     "@types/react-dom": "18.0.4",
     "babel-jest": "^28.1.0",
+    "cypress": "^10.1.0",
     "eslint": "8.15.0",
     "eslint-config-next": "12.1.6",
     "identity-obj-proxy": "^3.0.0",

@@ -1,10 +1,16 @@
-import {screen, render} from '@testing-library/react'
+import {screen, render, fireEvent} from '@testing-library/react'
+import React from 'react';
 import Header from '../../components/header'
-import '@testing-library/jest-dom'
 
 describe('<Header />', () => {
-    const {container, get} = render(<Header/>)
+    const {container} = render(<Header/>);
+
     test('Render Header', () =>{
         expect(container).toMatchSnapshot();
+    });    
+
+    test('Scroll down event', () => {
+        fireEvent.scroll(window, {target: {scrollY: 20}});
+        fireEvent.scroll(window, {target: {scrollY: 6}});
     });
 })

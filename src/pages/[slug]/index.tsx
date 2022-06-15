@@ -4,9 +4,13 @@ import ImageGrid from '../../containers/image-grid';
 import { Project } from '../../domain/models/project';
 import { ProjectRepo } from '../../repository/project-repository';
 
-const projectsRepo = new ProjectRepo();
+export const projectsRepo = new ProjectRepo();
 
-const ProjectPage = (project: Project) => {
+interface props {
+    project: Project;
+}
+
+const ProjectPage = ({ project }: props) => {
     return (
         <div className="container-fluid">
             <Head>
@@ -36,10 +40,20 @@ export async function getStaticProps(context: any) {
     const params = context.params
     const slug = params.slug
 
-    const project = projectsRepo.getSingleProject(slug);
+    try {
+        const project = projectsRepo.getSingleProject(slug);
 
-    return {
-        props: project
+        return {
+            props: {
+                project
+            }
+        }
+    } catch (error) {
+        console.log(error);
+
+        return {
+            error
+        };
     }
 }
 

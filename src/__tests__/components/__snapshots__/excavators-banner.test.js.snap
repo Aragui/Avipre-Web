@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ExcavatorsBanner /> Render Banner 1`] = `
+<div>
+  <div
+    class="excavators-bannerstyles__BannerWrapper-sc-1qbd7sq-0 pZaBl container-fluid"
+    id="maquinaria"
+  >
+    <div
+      class="row py-5"
+    >
+      <div
+        class="col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center align-items-center"
+      >
+        <img
+          alt="Renta de retroexcavadoras"
+          class="banner-cover"
+          src="/images/excavadora.png"
+        />
+      </div>
+      <div
+        class="col-sm-12 col-md-12 col-lg-6 py-3 ps-3 d-flex flex-column justify-content-center align-items-center"
+      >
+        <div>
+          <h2
+            class="banner-title"
+          >
+            RENTA de Retroexcavadoras
+          </h2>
+          <p
+            class="banner-subtitle mt-5"
+          >
+            Hacemos trabajos de:
+          </p>
+          <ul
+            class="banner-list"
+          >
+            <li>
+              Limpieza de terrenos y desmontes.
+            </li>
+            <li>
+              Fosas.
+            </li>
+            <li>
+              Cisternas.
+            </li>
+            <li>
+              Piscinas.
+            </li>
+            <li>
+              Zanjas.
+            </li>
+          </ul>
+          <a
+            class="btn btn-outline-secondary mt-5"
+            href="tel:9991295507"
+          >
+            9991295507
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
