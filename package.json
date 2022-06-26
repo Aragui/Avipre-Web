@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build:export": "next export",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "test": "jest --verbose --coverage",
@@ -12,9 +13,11 @@
     "cypress": "cypress open"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.2",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "react-redux": "^8.0.2",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {

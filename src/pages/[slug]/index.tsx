@@ -14,7 +14,7 @@ interface props {
 const ProjectPage = ({ project }: props) => {
     return (
         <>
-            <Spinner />
+            {/* <Spinner /> */}
             <div className="container-fluid">
                 <Head>
                     <title>{project.name} | AVIPRE Arquitectura</title>

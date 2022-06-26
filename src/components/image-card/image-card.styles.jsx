@@ -3,10 +3,15 @@ import styled from 'styled-components'
 const Card = styled.div`
     cursor: pointer;
 
-    height: 250px;
+    
+    &>div{
+        position: relative;
+    
+        height: 250px;
 
-    & > img{
-        object-fit: cover;
+        & > img{
+            object-fit: cover;
+        }
     }
 `
 
