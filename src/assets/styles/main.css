@@ -121,6 +121,10 @@ body{
     background-color: #EFEFEF;
 }
 
+.mail{
+    color: black;
+}
+
 @media (max-width: 765px){
     .footer{
         padding: 30px 0;
