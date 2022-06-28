@@ -1,4 +1,5 @@
 import '../assets/styles/main.css'
+import '../assets/styles/error.css'
 import type { AppProps } from 'next/app'
 import Layout from '../containers/Layout'
 import { Provider } from 'react-redux'

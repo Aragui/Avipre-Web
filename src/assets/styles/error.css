@@ -1,0 +1,33 @@
+.container-fluid{
+    min-height: calc(100vh - 300px);
+}
+
+.left{
+    justify-content: end;
+    align-items: center;
+}
+
+.right{
+    justify-content: center;
+    align-items: start;
+}
+
+.cheems{
+    height: 400px;
+}
+
+@media (max-width: 900px){
+    .cheems{
+        width: 350px;
+    }
+
+    .left{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .right{
+        justify-content: center;
+        align-items: center;
+    }
+}
