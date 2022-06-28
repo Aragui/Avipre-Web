@@ -3,7 +3,7 @@
 exports[`<ExcavatorsBanner /> Render Banner 1`] = `
 <div>
   <div
-    class="excavators-bannerstyles__BannerWrapper-sc-1qbd7sq-0 pZaBl container-fluid"
+    class="excavators-bannerstyles__BannerWrapper-sc-1qbd7sq-0 fbhPuU container-fluid"
     id="maquinaria"
   >
     <div
@@ -52,7 +52,7 @@ exports[`<ExcavatorsBanner /> Render Banner 1`] = `
             </li>
           </ul>
           <a
-            class="btn btn-outline-secondary mt-5"
+            class="btn btn-warning mt-5"
             href="tel:9991295507"
           >
             9991295507

@@ -30,6 +30,22 @@ const BannerWrapper = styled.div`
 
         list-style: '- ';
     }
+
+    .btn-warning{
+        background-color: #FCD844;
+
+        color: #6D6E71;
+
+        border: none;
+
+        @media (min-width: 1000px){
+            &:hover{
+                background-color: #FFC107;
+            }
+        }
+    }
+
+    
 `
 
 export { BannerWrapper }

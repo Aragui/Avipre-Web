@@ -4,11 +4,13 @@ import type {PayloadAction} from '@reduxjs/toolkit';
 export interface GalleryState{
     index: number;
     images: string[];
+    show: boolean;
 }
 
 const initialState: GalleryState = {
     index: 0,
-    images: []
+    images: [],
+    show: false
 }
 
 export const gallerySlice = createSlice({
@@ -18,15 +20,23 @@ export const gallerySlice = createSlice({
         setIndex: (state, action: PayloadAction<number>) => {
             state.index = action.payload;
         },
-        incrementIndex: (state) => {
-            state.index = state.index === (state.images.length - 1) ? 0 : ++state.index;
+        incrementIndex: (state, action: PayloadAction<number>) => {
+            state.index = state.index === (action.payload - 1) ? 0 : ++state.index;
         },
-        decrementIndex: (state) => {
-            state.index =  state.index === 0 ? state.images.length : --state.index;
+        decrementIndex: (state, action: PayloadAction<number>) => {
+            state.index =  state.index === 0 ? (action.payload - 1) : --state.index;
+        },
+        setShow: (state) => {
+            state.show = !state.show;
+            if(state.show){
+                document.body.classList.add('stop-scrolling');
+            }else{
+                document.body.classList.remove('stop-scrolling');
+            }
         }
     }
 });
 
-export const {decrementIndex, incrementIndex, setIndex} = gallerySlice.actions;
+export const {decrementIndex, incrementIndex, setIndex, setShow} = gallerySlice.actions;
 
 export default gallerySlice.reducer;
