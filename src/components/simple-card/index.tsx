@@ -13,12 +13,18 @@ const ProjectCard: FC<IProject> = (project) => {
             <Link href={`/${project.slug}`}>
                 <a className="w-100">
                     <div className="image-container">
-                        <img src={project.cover!} alt={project.name}  className="w-100"/>
+                        <img src={project.cover!} alt={project.name} className="w-100" />
                         <InfoCard>
                             <span className="text">{project.name}</span>
                             <div className="divider"></div>
-                            <span className="text">{project.ubication}</span>
-                            <div className="divider"></div>
+                            {
+                                project.ubication ?
+                                    <>
+                                        <span className="text">{project.ubication}</span>
+                                        <div className="divider"></div>
+                                    </> : null
+                            }
+
 
                         </InfoCard>
 

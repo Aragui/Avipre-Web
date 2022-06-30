@@ -141,7 +141,14 @@
         "year": 2019,
         "ubication": null,
         "cover": "/images/0832dcec-8833-4b2d-8252-9debd50ba169-600x450-min.jpg",
-        "gallery": []
+        "gallery": [
+            "/images/alura-u/2cecf4a4-0d5a-474d-a998-3be473ab6526-1280x960.jpg",
+            "/images/alura-u/8c7059a7-231a-4f12-9171-69373b13136a-960x1280.jpg",
+            "/images/alura-u/37df6a5d-ddb9-41e8-8b10-4c5adf458b99-960x1280.jpg",
+            "/images/alura-u/0832dcec-8833-4b2d-8252-9debd50ba169-1280x960.jpg",
+            "/images/alura-u/39001cc0-9639-4490-b1cb-69f79e7d99e8-1280x960.jpg",
+            "/images/alura-u/photo-2019-10-25-18-26-22-1024x754.jpg"
+        ]
     },
     {
         "slug": "remodelacion-alura-m",
@@ -149,7 +156,13 @@
         "year": 2019,
         "ubication": null,
         "cover": "/images/8f80c36e-a7d1-4b8b-9262-548a5a6e1931-600x338-min.jpg",
-        "gallery": []
+        "gallery": [
+            "/images/alura-m/7a18d366-7998-4ec5-9ef3-b32d270eaafe-2000x1125.jpg",
+            "/images/alura-m/8f80c36e-a7d1-4b8b-9262-548a5a6e1931-2000x1125.jpg",
+            "/images/alura-m/e19b5fe2-314b-440f-bce7-d40650802731-960x1280.jpg",
+            "/images/alura-m/img-3987-2000x1500.jpg",
+            "/images/alura-m/whatsapp-image-2019-10-25-at-1.45.52-pm-1280x960.jpg"
+        ]
     },
     {
         "slug": "departamentos-maya-11",
@@ -157,7 +170,44 @@
         "year": 2019,
         "ubication": null,
         "cover": "/images/gptempdownload-15-600x450-min.jpg",
-        "gallery": []
+        "gallery": [
+            "images/depas-maya-11/0ab9c61c-b724-4d1e-879d-5602eefb92f0-961x1280.jpg",
+            "images/depas-maya-11/1c9bdc51-f28c-417c-bfbf-722773a571d5-2-961x1280.jpg",
+            "images/depas-maya-11/3f88221c-caed-4463-a518-f29016043ad8-2-961x1280.jpg",
+            "images/depas-maya-11/4bb9e1f5-d44d-40c3-be63-117529d1b171-961x1280.jpg",
+            "images/depas-maya-11/4c0e97da-1833-40ce-85e3-7445b3379f72-2-961x1280.jpg",
+            "images/depas-maya-11/8cceebdd-79d1-45c1-8826-2488b47d2d3e-961x1280.jpg",
+            "images/depas-maya-11/9ae21418-ecd1-4b59-9d85-e1e756f21521-2-961x1280.jpg",
+            "images/depas-maya-11/21f66bb1-0f47-47af-bc66-b46cf348cccf-2-961x1280.jpg",
+            "images/depas-maya-11/45b72e03-1470-4b3f-b7cc-333233011f61-2-1280x960.jpg",
+            "images/depas-maya-11/293c90f2-4c1d-45d0-98c0-e9eb2568319f-961x1280.jpg",
+            "images/depas-maya-11/425e63de-8ed7-4d6d-98bf-42d0f691f588-961x1280.jpg",
+            "images/depas-maya-11/277106c7-f35e-4986-bfca-e8b887dce61e-2-961x1280.jpg",
+            "images/depas-maya-11/339114c1-16e5-4ae7-a77f-57645813db1f-2000x1125.jpg",
+            "images/depas-maya-11/a73d0a8b-1f1c-41b3-b132-f8d6bfe93eb2-961x1280.jpg",
+            "images/depas-maya-11/a76c7141-950f-429f-8ea1-9eb48aadf10d-2-961x1280.jpg",
+            "images/depas-maya-11/c4bcbaf4-e9f3-44c9-8c18-3fe5f6afca65-2-961x1280.jpg",
+            "images/depas-maya-11/d5bf6ca6-5e6a-4011-ac30-7668ea557c00-961x1280.jpg",
+            "images/depas-maya-11/d5978fea-5fd4-4aeb-b7fc-8a51fff12eb3-961x1280.jpg",
+            "images/depas-maya-11/dabc7ba4-1804-4e8a-975a-81259b14822b-2-961x1280.jpg",
+            "images/depas-maya-11/e5ade39d-48c6-43f4-a539-192a7bbece40-2-961x1280.jpg",
+            "images/depas-maya-11/e190dc8a-377a-49dd-862c-f4b10b8c0200-961x1280.jpg",
+            "images/depas-maya-11/ecf2fb77-9cbe-44bd-a306-d03fc0a2d350-2-961x1280.jpg",
+            "images/depas-maya-11/f0f2d9da-515c-4f31-a3c7-2a558adee9f6-2-961x1280.jpg",
+            "images/depas-maya-11/gptempdownload-12-2000x1500.jpg",
+            "images/depas-maya-11/gptempdownload-14-2000x1500.jpg",
+            "images/depas-maya-11/gptempdownload-16-2000x1500.jpg",
+            "images/depas-maya-11/img-729-2000x2667.jpg",
+            "images/depas-maya-11/img-1169-2000x2667.jpg",
+            "images/depas-maya-11/img-5315-2000x1500.jpg",
+            "images/depas-maya-11/img-5316-2000x1500.jpg",
+            "images/depas-maya-11/img-5361-2000x1500.jpg",
+            "images/depas-maya-11/img-5363-2000x1500.jpg",
+            "images/depas-maya-11/img-5364-2000x1500.jpg",
+            "images/depas-maya-11/img-5365-2000x1500.jpg",
+            "images/depas-maya-11/img-5429-2000x2667.jpg",
+            "images/depas-maya-11/img-8276-2000x1500.jpg"
+        ]
     },
     {
         "slug": "casa-dzitya-jr",
