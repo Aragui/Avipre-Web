@@ -4,9 +4,6 @@ on:
     branches:
       - development
       - master
-    branches-ignore:
-      - deploy
-      - HTML-version
 jobs:
   test-with-jest:
     runs-on: ubuntu-latest
