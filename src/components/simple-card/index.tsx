@@ -11,14 +11,20 @@ const ProjectCard: FC<IProject> = (project) => {
     return (
         <CardWrapper className="col-xl-3 col-lg-3 col-md-6 d-flex flex-column mb-3">
             <Link href={`/${project.slug}`}>
-                <a>
+                <a className="w-100">
                     <div className="image-container">
-                        <img src={project.cover!} alt={project.name} />
+                        <img src={project.cover!} alt={project.name} className="w-100" />
                         <InfoCard>
                             <span className="text">{project.name}</span>
                             <div className="divider"></div>
-                            <span className="text">{project.ubication}</span>
-                            <div className="divider"></div>
+                            {
+                                project.ubication ?
+                                    <>
+                                        <span className="text">{project.ubication}</span>
+                                        <div className="divider"></div>
+                                    </> : null
+                            }
+
 
                         </InfoCard>
 

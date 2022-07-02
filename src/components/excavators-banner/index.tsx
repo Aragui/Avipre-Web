@@ -22,7 +22,7 @@ const ExcavatorsBanner = () => {
                             <li>Zanjas.</li>
                         </ul>
 
-                        <a href="tel:9991295507" className="btn btn-outline-secondary mt-5">9991295507</a>
+                        <a href="tel:9991295507" className="btn btn-warning mt-5">9991295507</a>
                     </div>
                 </div>
             </div>

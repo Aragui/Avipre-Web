@@ -65,11 +65,11 @@ const YearCard = styled.div`
 
 const CardWrapper = styled.div`
     cursor: pointer;
-
+    
     & > a > .image-container{
+        position: relative;
         width: 100%;
         aspect-ratio: 4/3;
-        position: relative;
 
         overflow: hidden;
 

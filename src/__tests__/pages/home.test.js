@@ -10,25 +10,6 @@ describe('<Home />', () => {
         new Project('Test 1', 2022, 'test1.jpg', 'test-1', 'Mérida', ['test1.jpg'])
     ];
 
-    // beforeEach(() => {
-    //     jest.mock('../../pages/index', () => {
-    //         const original = jest.requireActual('../../pages/index');
-
-    //         return {
-    //             ...original,
-    //             getStaticProps: jest.fn(async function () {
-    //                 return Promise.resolve({
-    //                     props: {
-    //                         list: [
-    //                             { name: 'Test 1', year: 2022, cover: 'test1.jpg', slug: 'test-1', ubication: 'Mérida', gallery: ['test1.jpg'] }
-    //                         ]
-    //                     }
-    //                 });
-    //             })
-    //         };
-    //     });
-    // });
-
     test('Render Home page', async () => {
         render(<Home list={projects} />);
 

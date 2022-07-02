@@ -20,8 +20,7 @@ const Footer = () => {
                         <div className='ms-5 mt-3'>
                             <h5>Contacto</h5>
                             <p><strong>Arq. Johari Aviles Preciat</strong></p>
-                            <p>Email: johari.aviles@gmail.com</p>
-                            <p>Cel: 9992-17-12-12</p>
+                            <p>Email: <a className="mail" href="mailto:johari.aviles@gmail.com">johari.aviles@gmail.com</a></p>
                         </div>
                     </div>
                 </div>

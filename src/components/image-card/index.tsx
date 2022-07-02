@@ -3,17 +3,18 @@ import React from 'react'
 
 import { Card } from './image-card.styles'
 
-interface props{
+interface props {
     src: string;
-    key: string;
+    openModal: () => void;
 }
 
-const ImageCard = ({src}: props) => {
+const ImageCard = ({ src, openModal }: props) => {
 
     return (
         <Card className="col-md-3 col-sm-6 mb-4">
-            <img src={src} alt={src.split('/').pop()} className="w-100 h-100" />
-            
+            <div className="image-container" onClick={openModal}>
+                <img src={src} alt={src.split('/').pop()} className="w-100 h-100" />
+            </div>
         </Card>
     )
 }

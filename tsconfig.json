@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/util/parse-json.js", "src/util/parse-json.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/util/parse-json.js", "src/util/parse-json.js", "src/__tests__/util/test-util.jsx"],
   "exclude": ["node_modules"]
 }

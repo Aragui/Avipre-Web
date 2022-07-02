@@ -4,7 +4,7 @@
         "name": "Departamentos Maya",
         "year": 2011,
         "ubication": "Maya, Mérida.",
-        "cover": "/images/fachada-principal-1200x809-64.jpg",
+        "cover": "/images/fachada-principal-1200x809-64-min.jpg",
         "gallery": []
     },
     {
@@ -12,7 +12,7 @@
         "name": "Casa Sab Pedro Cholul",
         "year": 2014,
         "ubication": "San Pedro Cholul, Mérida.",
-        "cover": "/images/fachada-1-1200x579-8.jpg",
+        "cover": "/images/fachada-1-1200x579-8-min.jpg",
         "gallery": []
     },
     {
@@ -20,7 +20,7 @@
         "name": "Casa San Ramón Norte",
         "year": 2015,
         "ubication": "San Ramon Norte, Mérida.",
-        "cover": "/images/fachada-principal-1-1200x879-0.jpg",
+        "cover": "/images/fachada-principal-1-1200x879-0-min.jpg",
         "gallery": []
     },
     {
@@ -28,7 +28,7 @@
         "name": "Casa Dzitya C -A",
         "year": 2015,
         "ubication": "Dzitya, Mérida.",
-        "cover": "/images/fachada-principal-1200x869-96.jpg",
+        "cover": "/images/fachada-principal-1200x869-96-min.jpg",
         "gallery": []
     },
     {
@@ -36,7 +36,7 @@
         "name": "Casa Altabrisa M - E",
         "year": 2015,
         "ubication": "Altabrisa, Mérida.",
-        "cover": "/images/fachada-principal-1-1200x857-12.jpg",
+        "cover": "/images/fachada-principal-1-1200x857-12-min.jpg",
         "gallery": []
     },
     {
@@ -44,7 +44,7 @@
         "name": "Casa Leandro Valle",
         "year": 2015,
         "ubication": "Leandro Valle, Mérida.",
-        "cover": "/images/fachada-1200x894-78.jpg",
+        "cover": "/images/fachada-1200x894-78-min.jpg",
         "gallery": []
     },
     {
@@ -52,7 +52,7 @@
         "name": "Remodelacion de Fachada Casa Pensiones",
         "year": 2016,
         "ubication": null,
-        "cover": "/images/img-2158-600x400-8.jpg",
+        "cover": "/images/img-2158-600x400-8-min.jpg",
         "gallery": []
     },
     {
@@ -60,7 +60,7 @@
         "name": "Casa San Ramón A-G",
         "year": 2016,
         "ubication": "San Ramon Norte, Mérida.",
-        "cover": "/images/fachada-pricnipal-1200x900-11.jpg",
+        "cover": "/images/fachada-pricnipal-1200x900-11-min.jpg",
         "gallery": []
     },
     {
@@ -68,7 +68,7 @@
         "name": "Casa Cholul E - P",
         "year": 2016,
         "ubication": "Guadalupe Cholul, Mérida.",
-        "cover": "/images/img-2278-600x450-72.jpg",
+        "cover": "/images/img-2278-600x450-72-min.jpg",
         "gallery": []
     },
     {
@@ -76,7 +76,7 @@
         "name": "Remodelación Terraza Pedregales de Linda Vista",
         "year": 2016,
         "ubication": "Pedregales de Linda Vista, Mérida",
-        "cover": "/images/piscina-600x336.jpg",
+        "cover": "/images/piscina-600x336-min.jpg",
         "gallery": []
     },
     {
@@ -84,7 +84,7 @@
         "name": "Remodelación Oficina + Depa",
         "year": 2017,
         "ubication": "Emiliano Zapata Nte, Mérida.",
-        "cover": "/images/img-485-600x1024.jpg",
+        "cover": "/images/img-485-600x1024-min.jpg",
         "gallery": []
     },
     {
@@ -92,7 +92,7 @@
         "name": "GIN 47 Mixology & Kitchen",
         "year": 2017,
         "ubication": "Torre SkyCity 8 piso, Mérida.",
-        "cover": "/images/600x450.jpg",
+        "cover": "/images/600x450-min.jpg",
         "gallery": []
     },
     {
@@ -100,7 +100,7 @@
         "name": "Casa M & N",
         "year": 2018,
         "ubication": "Dzytia, Mérida.",
-        "cover": "/images/img-4867-600x600.jpg",
+        "cover": "/images/img-4867-600x600-min.jpg",
         "gallery": []
     },
     {
@@ -108,7 +108,7 @@
         "name": "Remodelación Terraza Nuevo Yucatán",
         "year": 2018,
         "ubication": null,
-        "cover": "/images/antes-desp-600x450.jpg",
+        "cover": "/images/antes-desp-600x450-min.jpg",
         "gallery": []
     },
     {
@@ -116,7 +116,7 @@
         "name": "Remodelación \"Bamboo\"",
         "year": 2018,
         "ubication": "Cholul",
-        "cover": "/images/303b3635-a25e-4684-9a91-d392905a2711-600x400.jpg",
+        "cover": "/images/303b3635-a25e-4684-9a91-d392905a2711-600x400-min.jpg",
         "gallery": []
     },
     {
@@ -124,7 +124,7 @@
         "name": "Casa Dzitya Mérida",
         "year": 2018,
         "ubication": "Dzitya",
-        "cover": "/images/0d1efded-d127-4141-b5a0-267b1bec7134-600x800.jpg",
+        "cover": "/images/0d1efded-d127-4141-b5a0-267b1bec7134-600x800-min.jpg",
         "gallery": []
     },
     {
@@ -132,7 +132,7 @@
         "name": "Casa Cholul Mérida",
         "year": 2018,
         "ubication": "Cholul",
-        "cover": "/images/2000x2031.jpg",
+        "cover": "/images/2000x2031-min.jpg",
         "gallery": []
     },
     {
@@ -140,31 +140,81 @@
         "name": "Remodelación Alura U",
         "year": 2019,
         "ubication": null,
-        "cover": "/images/0832dcec-8833-4b2d-8252-9debd50ba169-600x450.jpg",
-        "gallery": []
+        "cover": "/images/0832dcec-8833-4b2d-8252-9debd50ba169-600x450-min.jpg",
+        "gallery": [
+            "/images/alura-u/2cecf4a4-0d5a-474d-a998-3be473ab6526-1280x960.jpg",
+            "/images/alura-u/8c7059a7-231a-4f12-9171-69373b13136a-960x1280.jpg",
+            "/images/alura-u/37df6a5d-ddb9-41e8-8b10-4c5adf458b99-960x1280.jpg",
+            "/images/alura-u/0832dcec-8833-4b2d-8252-9debd50ba169-1280x960.jpg",
+            "/images/alura-u/39001cc0-9639-4490-b1cb-69f79e7d99e8-1280x960.jpg",
+            "/images/alura-u/photo-2019-10-25-18-26-22-1024x754.jpg"
+        ]
     },
     {
         "slug": "remodelacion-alura-m",
         "name": "Remodelación Alura M",
         "year": 2019,
         "ubication": null,
-        "cover": "/images/8f80c36e-a7d1-4b8b-9262-548a5a6e1931-600x338.jpg",
-        "gallery": []
+        "cover": "/images/8f80c36e-a7d1-4b8b-9262-548a5a6e1931-600x338-min.jpg",
+        "gallery": [
+            "/images/alura-m/7a18d366-7998-4ec5-9ef3-b32d270eaafe-2000x1125.jpg",
+            "/images/alura-m/8f80c36e-a7d1-4b8b-9262-548a5a6e1931-2000x1125.jpg",
+            "/images/alura-m/e19b5fe2-314b-440f-bce7-d40650802731-960x1280.jpg",
+            "/images/alura-m/img-3987-2000x1500.jpg",
+            "/images/alura-m/whatsapp-image-2019-10-25-at-1.45.52-pm-1280x960.jpg"
+        ]
     },
     {
         "slug": "departamentos-maya-11",
         "name": "Departamentos Maya 11",
         "year": 2019,
         "ubication": null,
-        "cover": "/images/gptempdownload-15-600x450.jpg",
-        "gallery": []
+        "cover": "/images/gptempdownload-15-600x450-min.jpg",
+        "gallery": [
+            "images/depas-maya-11/0ab9c61c-b724-4d1e-879d-5602eefb92f0-961x1280.jpg",
+            "images/depas-maya-11/1c9bdc51-f28c-417c-bfbf-722773a571d5-2-961x1280.jpg",
+            "images/depas-maya-11/3f88221c-caed-4463-a518-f29016043ad8-2-961x1280.jpg",
+            "images/depas-maya-11/4bb9e1f5-d44d-40c3-be63-117529d1b171-961x1280.jpg",
+            "images/depas-maya-11/4c0e97da-1833-40ce-85e3-7445b3379f72-2-961x1280.jpg",
+            "images/depas-maya-11/8cceebdd-79d1-45c1-8826-2488b47d2d3e-961x1280.jpg",
+            "images/depas-maya-11/9ae21418-ecd1-4b59-9d85-e1e756f21521-2-961x1280.jpg",
+            "images/depas-maya-11/21f66bb1-0f47-47af-bc66-b46cf348cccf-2-961x1280.jpg",
+            "images/depas-maya-11/45b72e03-1470-4b3f-b7cc-333233011f61-2-1280x960.jpg",
+            "images/depas-maya-11/293c90f2-4c1d-45d0-98c0-e9eb2568319f-961x1280.jpg",
+            "images/depas-maya-11/425e63de-8ed7-4d6d-98bf-42d0f691f588-961x1280.jpg",
+            "images/depas-maya-11/277106c7-f35e-4986-bfca-e8b887dce61e-2-961x1280.jpg",
+            "images/depas-maya-11/339114c1-16e5-4ae7-a77f-57645813db1f-2000x1125.jpg",
+            "images/depas-maya-11/a73d0a8b-1f1c-41b3-b132-f8d6bfe93eb2-961x1280.jpg",
+            "images/depas-maya-11/a76c7141-950f-429f-8ea1-9eb48aadf10d-2-961x1280.jpg",
+            "images/depas-maya-11/c4bcbaf4-e9f3-44c9-8c18-3fe5f6afca65-2-961x1280.jpg",
+            "images/depas-maya-11/d5bf6ca6-5e6a-4011-ac30-7668ea557c00-961x1280.jpg",
+            "images/depas-maya-11/d5978fea-5fd4-4aeb-b7fc-8a51fff12eb3-961x1280.jpg",
+            "images/depas-maya-11/dabc7ba4-1804-4e8a-975a-81259b14822b-2-961x1280.jpg",
+            "images/depas-maya-11/e5ade39d-48c6-43f4-a539-192a7bbece40-2-961x1280.jpg",
+            "images/depas-maya-11/e190dc8a-377a-49dd-862c-f4b10b8c0200-961x1280.jpg",
+            "images/depas-maya-11/ecf2fb77-9cbe-44bd-a306-d03fc0a2d350-2-961x1280.jpg",
+            "images/depas-maya-11/f0f2d9da-515c-4f31-a3c7-2a558adee9f6-2-961x1280.jpg",
+            "images/depas-maya-11/gptempdownload-12-2000x1500.jpg",
+            "images/depas-maya-11/gptempdownload-14-2000x1500.jpg",
+            "images/depas-maya-11/gptempdownload-16-2000x1500.jpg",
+            "images/depas-maya-11/img-729-2000x2667.jpg",
+            "images/depas-maya-11/img-1169-2000x2667.jpg",
+            "images/depas-maya-11/img-5315-2000x1500.jpg",
+            "images/depas-maya-11/img-5316-2000x1500.jpg",
+            "images/depas-maya-11/img-5361-2000x1500.jpg",
+            "images/depas-maya-11/img-5363-2000x1500.jpg",
+            "images/depas-maya-11/img-5364-2000x1500.jpg",
+            "images/depas-maya-11/img-5365-2000x1500.jpg",
+            "images/depas-maya-11/img-5429-2000x2667.jpg",
+            "images/depas-maya-11/img-8276-2000x1500.jpg"
+        ]
     },
     {
         "slug": "casa-dzitya-jr",
         "name": "Casa Dzitya JR",
         "year": 2019,
         "ubication": null,
-        "cover": "/images/casa-dzitya-jr/1.jpg",
+        "cover": "/images/casa-dzitya-jr/1-min.jpg",
         "gallery": [
             "/images/casa-dzitya-jr/1.jpg",
             "/images/casa-dzitya-jr/2.jpeg",
@@ -184,7 +234,7 @@
         "name": "Casa Conkal RL",
         "year": 2019,
         "ubication": null,
-        "cover": "/images/casa-rich-leon/6.jpeg",
+        "cover": "/images/casa-rich-leon/6-min.jpeg",
         "gallery": [
             "/images/casa-rich-leon/1.jpeg",
             "/images/casa-rich-leon/2.jpeg",
@@ -204,7 +254,7 @@
         "name": "Alamanda",
         "year": 2019,
         "ubication": null,
-        "cover": "/images/alamanda/IMG_5010.JPG",
+        "cover": "/images/alamanda/IMG_5010-min.JPG",
         "gallery": [
             "/images/alamanda/IMG_5001.JPG",
             "/images/alamanda/IMG_5003.JPG",
@@ -224,7 +274,7 @@
         "name": "Casa Cholul",
         "year": 2020,
         "ubication": null,
-        "cover": "/images/casa-cholul/IMG-6934.jpg",
+        "cover": "/images/casa-cholul/IMG-6934-min.jpg",
         "gallery": [
             "/images/casa-cholul/IMG-6934.jpg",
             "/images/casa-cholul/IMG-6935.jpeg",

@@ -5,15 +5,12 @@ import Spinner from '../../components/spinner'
 
 describe('<Spinner />', () => {
     const { container, debug } = render(<Spinner />);
-
-    // jest.useFakeTimers();
+    
     jest.spyOn(global, 'setTimeout');
     jest.useRealTimers();
 
     test('Render Spinner', () => {
-        expect(container.firstChild).toBeInTheDocument()
-
-        jest.runAllTimers();
+        expect(container.firstChild).toBeInTheDocument();
     });
 
     test('Unmount Spinner', async () => {

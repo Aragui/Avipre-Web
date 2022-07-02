@@ -56,10 +56,13 @@ exports[`<Footer /> Render Footer 1`] = `
               </strong>
             </p>
             <p>
-              Email: johari.aviles@gmail.com
-            </p>
-            <p>
-              Cel: 9992-17-12-12
+              Email: 
+              <a
+                class="mail"
+                href="mailto:johari.aviles@gmail.com"
+              >
+                johari.aviles@gmail.com
+              </a>
             </p>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import CoverBanner from '../../components/cover-banner';
-import Spinner from '../../components/spinner';
+import GalleryViewer from '../../components/gallery-viewer';
 import ImageGrid from '../../containers/image-grid';
 import { Project } from '../../domain/models/project';
 import { ProjectRepo } from '../../repository/project-repository';
@@ -14,7 +14,8 @@ interface props {
 const ProjectPage = ({ project }: props) => {
     return (
         <>
-            <Spinner />
+            {/* <Spinner /> */}
+            <GalleryViewer images={project.gallery} />
             <div className="container-fluid">
                 <Head>
                     <title>{project.name} | AVIPRE Arquitectura</title>
