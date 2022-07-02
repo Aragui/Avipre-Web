@@ -1,5 +1,8 @@
 import { render, screen, getByText } from '@testing-library/react';
 import '@testing-library/jest-dom'
+import {Provider} from 'react-redux';
+
+import {store} from '../../util/store';
 import { Project } from '../../domain/models/project';
 
 import ProjectPage, { getStaticPaths, getStaticProps, projectsRepo } from '../../pages/[slug]';
@@ -14,14 +17,18 @@ describe('<ProjectPage />', () => {
             throw new Error('Unable to find project');
         }
     }
+    const { container, debug } = render(
+        <Provider store={store}>
+            <ProjectPage project={project} />
+        </Provider>
+    );
 
     test('Render Project', () => {
-        const { container, debug } = render(<ProjectPage project={project} />);
 
         expect(container.querySelector('h1.title')).toBeInTheDocument();
-        expect(container.querySelectorAll('img').length).toBe(2);
+        expect(container.querySelectorAll('img').length).toBe(3);
     });
-
+    
     test('Get Static Paths', async () => {
         const pathsList = ['project-test']
 

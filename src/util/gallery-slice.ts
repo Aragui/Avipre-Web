@@ -3,13 +3,11 @@ import type {PayloadAction} from '@reduxjs/toolkit';
 
 export interface GalleryState{
     index: number;
-    images: string[];
     show: boolean;
 }
 
 const initialState: GalleryState = {
     index: 0,
-    images: [],
     show: false
 }
 
