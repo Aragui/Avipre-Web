@@ -5,7 +5,7 @@ on:
       - master
       - development
 jobs:
-  test-with-Cypress:
+  run-next-project:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -15,4 +15,12 @@ jobs:
 
       - run: npm install
       - run: npm run dev
+  run-cypress-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
       - run: npx cypress run
+  
