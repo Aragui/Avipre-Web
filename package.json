@@ -9,7 +9,8 @@
     "lint": "next lint",
     "test": "jest --verbose --coverage",
     "test:watch": "jest --watch --coverage --verbose",
-    "cypress": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.2",
