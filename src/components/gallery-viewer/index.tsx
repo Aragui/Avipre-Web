@@ -10,7 +10,7 @@ interface props {
   images: string[];
 }
 const GalleryViewer = ({ images }: props) => {
-  const {index, show} = useSelector((state: RootState) => state);
+  const {index, show} = useSelector((state: RootState) => state.gallery);
   const dispatch = useDispatch();
 
   

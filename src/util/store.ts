@@ -1,8 +1,14 @@
-import {configureStore} from '@reduxjs/toolkit';
+import {combineReducers, configureStore} from '@reduxjs/toolkit';
 import galleryReducer from '../util/gallery-slice';
+import projectsReducer from '../util/projects-slice';
+
+const reducers = combineReducers({
+    gallery: galleryReducer,
+    projects: projectsReducer
+});
 
 export const store = configureStore({
-    reducer: galleryReducer
+    reducer: reducers
 });
 
 export type RootState = ReturnType<typeof store.getState>;

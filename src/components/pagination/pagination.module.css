@@ -1,0 +1,26 @@
+.button{
+    border: none;
+    border-radius: 8px;
+    background: none;
+    width: 24px;
+    margin: 0 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color ease-in-out 0.11s;
+}
+
+.button:hover{
+    background-color: #CCCDCD;
+}
+
+.button:active{
+    background-color: #ececec;
+}
+
+.page{
+    max-width: 30px;
+    text-align: center;
+}

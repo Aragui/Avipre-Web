@@ -7,9 +7,20 @@ import { ProjectRepo } from "../repository/project-repository"
 import { Project } from "../domain/models/project"
 import ProjectGrid from "../containers/project-grid"
 
+import { setList } from "../util/projects-slice";
+
+import { useDispatch } from "react-redux";
+import { useEffect } from "react"
+
 export const projectRepo = new ProjectRepo();
 
 const Home = ({ list }: { list: Project[] }) => {
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(setList(list));
+    });
+
     return (
         <>
             {/* <Spinner /> */}
@@ -19,7 +30,7 @@ const Home = ({ list }: { list: Project[] }) => {
                     <meta name="description" content="Construccion en Merida, Arquitectura Merida, Contruccion y Diseño Merida, Contruir Casas Merida" />
                     <meta name="og:image" content="https://avipre.vercel.app/images/logos/logotipo-2322x688-13.png" />
                 </Head>
-                <ProjectGrid projects={list} />
+                <ProjectGrid />
                 <ExcavatorsBanner />
                 <Map />
             </div>
