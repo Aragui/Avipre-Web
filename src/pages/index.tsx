@@ -1,5 +1,4 @@
-import ProjectCard from "../components/simple-card"
-import ExcavatorsBanner from "../components/excavators-banner"
+import ExcavatorsBanner from "../containers/excavators-banner"
 import Map from "../components//map"
 import Head from "next/head"
 
@@ -11,6 +10,8 @@ import { setList } from "../util/projects-slice";
 
 import { useDispatch } from "react-redux";
 import { useEffect } from "react"
+import CamionBanner from "../containers/camion-banner"
+import BuildingBanner from "../components/building-banner"
 
 export const projectRepo = new ProjectRepo();
 
@@ -32,6 +33,8 @@ const Home = ({ list }: { list: Project[] }) => {
                 </Head>
                 <ProjectGrid />
                 <ExcavatorsBanner />
+                <CamionBanner />
+                <BuildingBanner />
                 <Map />
             </div>
         </>

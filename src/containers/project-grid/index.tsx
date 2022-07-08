@@ -33,8 +33,8 @@ const ProjectGrid = () => {
                         />
                     ))
                 }
-                <Pagination page={page} prevPage={prevPage} nextPage={nextPage} />
             </div>
+            <Pagination page={page} prevPage={prevPage} nextPage={nextPage} />
         </div>
     )
 }

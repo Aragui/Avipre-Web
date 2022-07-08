@@ -4,7 +4,7 @@ import Link from "next/link";
 /* eslint-disable @next/next/no-img-element */
 const ErrorPage = () => {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid min-height">
             <Head>
                 <title>Error | Página no encontrada</title>
                 <meta name="description" content="¡UUPS!" />

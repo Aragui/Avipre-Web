@@ -1,0 +1,10 @@
+@media (max-width: 1000px) {
+    .image {
+        max-width: 500px;
+        height: 100%;
+    }
+}
+
+.banner_height{
+    max-height: 800px;
+}
